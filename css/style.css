@@ -44,9 +44,41 @@ h2, span  {
 }
 /* Logo */
 .logo {
-  width: 74px;
+  display: flex;
+
 }
-/* Fine Logo */
+
+.logo span {
+  font-size: 20px;
+  line-height: 24px;
+  color: #5f6268;
+  padding-left: 10px;
+}
+/* goggle-logo */
+.google-logo{
+  width: 74px;
+
+}
+.google-logo > img {
+  vertical-align: middle;
+}
+/* fine goggle-logo */
+
+/* Fne Logo */
+/* Nav Menu */
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.google-account {
+  display: flex;
+}
+.photo-account {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+/* Fine Nav Menu */
 /* Fine Navbar */
 /* FINE HEADER */
 .container {

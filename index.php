@@ -66,7 +66,7 @@ $faqs = [
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Google Faq</title>
   </head>
@@ -75,7 +75,11 @@ $faqs = [
       <header>
         <div class="nav-bar">
           <div class="logo">
-            <img src="img/googlelogo.png" alt="google logo">
+            <div class="google-logo">
+              <img src="img/googlelogo.png" alt="google logo">
+
+            </div>
+            <span>Privacy & Terms</span>
           </div>
           <div class="nav-menu">
             <ul>
@@ -95,6 +99,13 @@ $faqs = [
                 <a href="#">FAQ</a>
               </li>
             </ul>
+            <div class="google-account">
+              <div class="photo-account">
+                <img src="img/leo.png" alt="foto account">
+              </div>
+              <span>franx3rox@gmail.com</span>
+
+            </div>
           </div>
 
         </div>
