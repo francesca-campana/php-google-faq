@@ -97,6 +97,8 @@ $faqs = [
               </li>
               <li>
                 <a href="#">FAQ</a>
+                <span></span>
+
               </li>
             </ul>
             <div class="google-account">

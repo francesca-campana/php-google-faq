@@ -15,7 +15,7 @@ img {
 li {
   display: inline-block;
   list-style-type: none;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 a {
   text-decoration: none;
@@ -37,7 +37,7 @@ h2, span  {
   width: 100%;
   position: fixed;
   border-bottom: 1px solid lightgray;
-  padding: 25px 25px 5px;
+  padding: 25px 30px 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -70,13 +70,31 @@ h2, span  {
   display: flex;
   justify-content: space-between;
 }
+.nav-menu li:last-of-type a{
+  color: #3366d6;
+}
+.nav-menu li {
+  position: relative;
+}
+.nav-menu li span {
+  width: 31px;
+  height: 4px;
+  background-color: #3366d6;
+  position: absolute;
+  top: 28px;
+  left: 0;
+}
 .google-account {
   display: flex;
 }
-.photo-account {
-  width: 20px;
-  height: 20px;
+.photo-account img{
   border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+.google-account span {
+  font-size: 14px;
+  padding-left: 5px;
 }
 /* Fine Nav Menu */
 /* Fine Navbar */
