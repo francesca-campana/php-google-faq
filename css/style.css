@@ -4,12 +4,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
 }
+
 main {
   padding-top: 100px;;
 }
+
 /* FINE REGOLE GENERALI */
 
 /* COMMONS */
@@ -22,6 +25,7 @@ li {
   list-style-type: none;
   padding-right: 30px;
 }
+
 a {
   text-decoration: none;
   font-size: 14px;
@@ -30,6 +34,7 @@ a {
 h2, span  {
   color: #3c4043;
 }
+
 .wrapper {
   width: 100%;
   height: 100vh;
@@ -49,10 +54,10 @@ h2, span  {
   flex-direction: column;
   justify-content: space-between;
 }
+
 /* logo */
 .logo {
   display: flex;
-
 }
 
 .logo span {
@@ -64,23 +69,27 @@ h2, span  {
 
 .google-logo{
   width: 74px;
-
 }
+
 .google-logo > img {
   vertical-align: middle;
 }
 /* fine logo */
+
 /* nav menu */
 .nav-menu {
   display: flex;
   justify-content: space-between;
 }
+
 .nav-menu li:last-of-type a{
   color: #3366d6;
 }
+
 .nav-menu li {
   position: relative;
 }
+
 .nav-menu li span {
   width: 31px;
   height: 4px;
@@ -90,10 +99,12 @@ h2, span  {
   left: 0;
 }
 /* fine nav menu */
+
 /* google account */
 .google-account {
   display: flex;
 }
+
 .photo-account img{
   border-radius: 50%;
   width: 24px;
@@ -109,20 +120,27 @@ h2, span  {
 
 /* MAIN */
 .container {
-
   width: 1042px;
   margin: auto;
   padding: 40px;
 }
+
 /* Faq */
 .faq {
   padding: 20px 0;
 }
+
 .faq h2 {
   padding-bottom: 20px;
 }
+
 .faq span {
   font-size: 13px;
 }
 /* Fine Faq */
 /* FINE MAIN */
+
+/* php */
+.blue {
+  color: #3366d6;
+}

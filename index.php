@@ -3,14 +3,14 @@
 $faqs = [
   [
     'question'=> 'How are you implementing the recent Court of Justice of the European Union (CJEU) decision on the right to be forgotten?',
-    'answer' => 'The recent ruling by the Court of Justice of the European Union has profound consequences
+    'answer' => 'The recent '.'<span class="blue">'.'ruling by the Court of Justice of the European Union'.'</span>'.' has profound consequences
                 for search engines in Europe. The court found that certain users have the right to ask search engines like Google to remove
                 results for queries that include the person\'s name.
                 To qualify, the results shown would need to be inadequate, irrelevant, no longer relevant, or excessive.' . '<br>' . '<br>' . '
                 Since this ruling was published on 13 May 2014, we\'ve been working round the clock to comply.
                 This is a complicated process because we need to assess each
                 individual request and balance the rights of the individual to control his or her personal data with public\'s right to know and distribute information.' . '<br>' . '<br>' . '
-                If you have a removal request, please fill out this webform. You\'ll receive an automatic reply confirming that we have received your request. We will then
+                If you have a removal request, please fill out this '.'<span class="blue">'.'webform.'.'</span>'.' You\'ll receive an automatic reply confirming that we have received your request. We will then
                 assess your case—please note this may take some time because we have already received many such requests. In evaluating your request, we will look at whether
                 the results include outdated information about your private life. We\'ll also look at whether there\'s a public interest in the information remaining in our
                 search results—for example, if it relates to financial scams, professional malpractice, criminal convictions or your public conduct as a government official
@@ -34,8 +34,8 @@ $faqs = [
                 We also built easy-to-use privacy and security tools like Google Dashboard, 2-step verification and Ads Settings.
                 So when it comes to the information you share with Google, you’re in control.' . '<br>' . '<br>' . '
                 You can learn more about safety and security online, including how to protect yourself and
-                your family online, at the Google Safety Center.' . '<br>' . '<br>' . '
-                Learn more about how we keep your personal information private and safe — and put you in control.'
+                your family online, at the '.'<span class="blue">'.'Google Safety Center.' . '<br>' . '<br>' . '
+                Learn more'.'</span>'.' about how we keep your personal information private and safe — and put you in control.'
   ],
   [
     'question' => 'How can I remove information about myself from Google\'s search results?',
@@ -128,9 +128,10 @@ $faqs = [
           <?php  foreach($faqs as $faq) { ?>
             <!-- Faq -->
             <div class="faq">
-              <!--  -->
+
             <h2> <?php echo $faq['question']; ?></h2>
             <span><?php echo $faq['answer']; ?></span>
+            
             </div>
           <?php } ?>
           <!-- Fine Faq -->
