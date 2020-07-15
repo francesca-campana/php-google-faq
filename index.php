@@ -66,6 +66,7 @@ $faqs = [
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Google Faq</title>
   </head>
@@ -82,7 +83,7 @@ $faqs = [
           <?php  foreach($faqs as $faq) { ?>
             <div class="faq">
             <h2> <?php echo $faq['question']; ?></h2>
-            <span><?php echo $faq['answer']; ?></span>
+            <span><?php echo $faq['answer'] . '<br>'; ?></span>
             </div>
           <?php } ?>
 
