@@ -74,6 +74,28 @@ $faqs = [
     <div class="wrapper">
       <header>
         <div class="nav-bar">
+          <div class="logo">
+            <img src="img/googlelogo.png" alt="google logo">
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li>
+                <a href="#">Overview</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#">Terms of Service</a>
+              </li>
+              <li>
+                <a href="#">Technologies</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
 
         </div>
       </header>
